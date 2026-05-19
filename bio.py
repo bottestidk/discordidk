@@ -20,4 +20,4 @@ def ChangeStatus(message):
 while True:
     for line in lines:
         ChangeStatus(line.strip())
-        time.sleep(5)
+        time.sleep(3)
